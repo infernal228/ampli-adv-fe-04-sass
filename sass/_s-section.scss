@@ -1,0 +1,37 @@
+@import "config";
+
+.section-avocado {
+  margin: 200px 0px;
+  position: relative;
+}
+
+.block-avocado {
+  background: #ffffff;
+  box-shadow: 0px 16px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  padding: 20px 20px;
+}
+
+.block-avocado h1 {
+  @include font-800;
+  font-size: 32px;
+  line-height: 39px;
+  opacity: 0.8;
+  padding: 20px 0px;
+}
+
+.block-avocado p {
+  @include font-400;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.7;
+  width: 900px;
+}
+
+.avoc {
+  position: absolute;
+  width: 361px;
+  height: 266px;
+  left: 667px;
+  top: 0%;
+}

@@ -1,0 +1,654 @@
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5px;
+  padding: 20px 0px;
+  cursor: pointer;
+}
+
+.logo-img2 {
+  position: relative;
+}
+
+.logo-img {
+  position: absolute;
+  left: 0;
+}
+
+.logo-h1 {
+  font-family: "Squada One", cursive;
+  opacity: 0.7;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 0px 10px;
+}
+
+nav {
+  padding: 20px 0px;
+}
+
+.list-item,
+.list-item a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.nav-links {
+  list-style-type: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.first-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 120px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-text-800 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 48px;
+  line-height: 59px;
+  opacity: 0.8;
+}
+
+.main-text-400 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.main-button {
+  background-color: #e05124;
+  -webkit-box-shadow: 0px 8px 30px rgba(224, 81, 36, 0.4);
+          box-shadow: 0px 8px 30px rgba(224, 81, 36, 0.4);
+  border-color: #e05124;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.main-button {
+  outline: none;
+}
+
+.section-avocado {
+  margin: 200px 0px;
+  position: relative;
+}
+
+.block-avocado {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 16px 100px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 16px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  padding: 20px 20px;
+}
+
+.block-avocado h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 32px;
+  line-height: 39px;
+  opacity: 0.8;
+  padding: 20px 0px;
+}
+
+.block-avocado p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.7;
+  width: 900px;
+}
+
+.avoc {
+  position: absolute;
+  width: 361px;
+  height: 266px;
+  left: 667px;
+  top: 0%;
+}
+
+.about-subs h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 24px;
+  line-height: 29px;
+  opacity: 0.8;
+}
+
+.about-subs p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.7;
+}
+
+.about-subs {
+  padding: 60px 0px;
+}
+
+.rates {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+}
+
+.week {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+
+.month {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 20px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+
+.year {
+  background: linear-gradient(129.72deg, #22e871 15.38%, #658324 79.28%, #a56b26 100%);
+  -webkit-box-shadow: 0px 20px 100px rgba(33, 99, 10, 0.65);
+          box-shadow: 0px 20px 100px rgba(33, 99, 10, 0.65);
+  border-radius: 16px;
+}
+
+.info h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.8;
+  padding: 1em;
+}
+
+.info p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 14px;
+  line-height: 17px;
+  opacity: 0.7;
+  padding: 1em;
+  text-align: center;
+}
+
+.price {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1em;
+}
+
+.year-price {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1em;
+}
+
+.year-price p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #e05124;
+  text-shadow: 8px 8px 30px rgba(224, 81, 36, 0.4);
+  text-align: center;
+}
+
+.year-price sup {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 22px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #e05124;
+  text-shadow: 8px 8px 30px rgba(224, 81, 36, 0.5);
+}
+
+.price p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 40px;
+  line-height: 49px;
+  text-transform: uppercase;
+  color: #e05124;
+  text-shadow: 8px 8px 30px rgba(224, 81, 36, 0.4);
+  text-align: center;
+}
+
+.price sup {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 22px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #e05124;
+  text-shadow: 8px 8px 30px rgba(224, 81, 36, 0.5);
+}
+
+.rates-list {
+  list-style: none;
+}
+
+.lir-gr {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.lir-green {
+  color: #32870a !important;
+}
+
+.list-items-rates {
+  padding: 1em;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.lir-gr-year {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+i {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-size: 25px;
+}
+
+#year-h1 {
+  color: #ffffff !important;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+#year-p {
+  color: #ffffff !important;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 1em;
+  text-align: center;
+}
+
+#year-list {
+  color: #ffffff !important;
+  padding: 1em;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.diet-info {
+  padding-top: 200px;
+}
+
+.diet-info h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 24px;
+  line-height: 29px;
+  opacity: 0.8;
+}
+
+.diet-info p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.7;
+}
+
+.low-cal,
+.low-carb {
+  background: linear-gradient(137.48deg, #27d26c 0%, #658324 75.52%, #a56b26 100%);
+  -webkit-box-shadow: 0px 20px 100px rgba(33, 99, 10, 0.65);
+          box-shadow: 0px 20px 100px rgba(33, 99, 10, 0.65);
+  border-radius: 16px;
+}
+
+.low-cal h1,
+.low-carb h1,
+.vlow-cal h1,
+.low-fat h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff !important;
+  padding: 40px 0px 15px 30px;
+}
+
+.low-cal li,
+.low-carb li,
+.vlow-cal li,
+.low-fat li {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff !important;
+}
+
+.vlow-cal,
+.low-fat {
+  background: linear-gradient(142.68deg, #27d26c 0%, #658324 75.52%, #a56b26 100%);
+  -webkit-box-shadow: 0px 20px 100px rgba(33, 99, 10, 0.65);
+          box-shadow: 0px 20px 100px rgba(33, 99, 10, 0.65);
+  border-radius: 16px;
+}
+
+.diet-types {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 3em;
+  padding: 40px 0px;
+}
+
+.diet-types ul {
+  list-style: none;
+  padding: 0px 0px 40px 30px;
+}
+
+.low-cal,
+.low-carb,
+.vlow-cal,
+.low-fat {
+  position: relative;
+}
+
+.low-cal img,
+.low-carb img,
+.vlow-cal img,
+.low-fat img {
+  position: absolute;
+}
+
+#ananas {
+  right: -7px;
+  top: -24px;
+}
+
+#syr {
+  right: -20px;
+  top: 43.5px;
+}
+
+#petrushka {
+  right: -55px;
+  top: -65px;
+}
+
+#pomidor {
+  right: -30px;
+  top: -29px;
+}
+
+footer {
+  background: linear-gradient(170.65deg, #22e871 0%, #658324 75.52%, #a56b26 100%);
+  -webkit-box-shadow: 0px 20px 100px rgba(33, 99, 10, 0.65);
+          box-shadow: 0px 20px 100px rgba(33, 99, 10, 0.65);
+  padding: 20px 0px 20px 0px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 5px;
+  padding: 20px 0px;
+  cursor: pointer;
+}
+
+.logo p:last-child {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+.logo-img2 {
+  position: relative;
+}
+
+.logo-img {
+  position: absolute;
+  left: 0;
+}
+
+.logo-h1 {
+  font-family: "Squada One", cursive;
+  opacity: 0.7;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 19px;
+  text-transform: uppercase;
+  padding: 0px 10px;
+  color: #ffffff;
+}
+
+.footer-nav {
+  padding: 20px 0px;
+}
+
+.list-item,
+.list-item a {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+.footer-links {
+  list-style-type: none;
+}
+
+.footer-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}

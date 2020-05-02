@@ -1,0 +1,79 @@
+@import "config";
+
+footer {
+  background: linear-gradient(
+    170.65deg,
+    #22e871 0%,
+    #658324 75.52%,
+    #a56b26 100%
+  );
+  box-shadow: 0px 20px 100px rgba(33, 99, 10, 0.65);
+  padding: 20px 0px 20px 0px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  padding: 20px 0px;
+  cursor: pointer;
+}
+
+.logo p:last-child {
+  @include font-400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+.logo-img2 {
+  position: relative;
+}
+
+.logo-img {
+  position: absolute;
+  left: 0;
+}
+
+.logo-h1 {
+  font-family: $logo-font;
+  opacity: 0.7;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 19px;
+  text-transform: uppercase;
+  padding: 0px 10px;
+  color: #ffffff;
+}
+
+.footer-nav {
+  padding: 20px 0px;
+}
+
+.list-item,
+.list-item a {
+  @include font-600;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  opacity: 0.8;
+  color: #ffffff;
+}
+
+.footer-links {
+  list-style-type: none;
+}
+
+.footer-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}

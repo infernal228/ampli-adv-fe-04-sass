@@ -1,0 +1,59 @@
+@import "config";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  padding: 20px 0px;
+  cursor: pointer;
+}
+
+.logo-img2 {
+  position: relative;
+}
+
+.logo-img {
+  position: absolute;
+  left: 0;
+}
+
+.logo-h1 {
+  font-family: $logo-font;
+  opacity: 0.7;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 0px 10px;
+}
+
+nav {
+  padding: 20px 0px;
+}
+
+.list-item,
+.list-item a {
+  @include font-600;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.nav-links {
+  list-style-type: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}

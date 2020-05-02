@@ -1,0 +1,47 @@
+@import "config";
+
+.first-section {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 120px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-text-800 {
+  @include font-800;
+  font-size: 48px;
+  line-height: 59px;
+  opacity: 0.8;
+}
+
+.main-text-400 {
+  @include font-400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.main-button {
+  background-color: #e05124;
+  box-shadow: 0px 8px 30px rgba(224, 81, 36, 0.4);
+  border-color: #e05124;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+  margin-top: 30px;
+  width: 300px;
+}
+
+.main-button {
+  outline: none;
+}
