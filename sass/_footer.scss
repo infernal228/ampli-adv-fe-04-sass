@@ -34,16 +34,16 @@ footer {
   color: #ffffff;
 }
 
-.logo-img2 {
+.logo-img4 {
   position: relative;
 }
 
-.logo-img {
+.logo-img3 {
   position: absolute;
   left: 0;
 }
 
-.logo-h1 {
+.logo-h2 {
   font-family: $logo-font;
   opacity: 0.7;
   font-style: normal;
@@ -59,8 +59,8 @@ footer {
   padding: 20px 0px;
 }
 
-.list-item,
-.list-item a {
+.list-items,
+.list-items a {
   @include font-600;
   font-size: 12px;
   line-height: 15px;
